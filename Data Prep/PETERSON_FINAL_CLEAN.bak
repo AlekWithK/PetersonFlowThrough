@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Merges\PETERSON_FINAL.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>PETERSON_FINAL.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Merges\PETERSON_FINAL.csv" type="V_String" />
+            <Field name="index" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Merges\PETERSON_FINAL.csv" type="V_String" />
+            <Field name="datetime" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Merges\PETERSON_FINAL.csv" type="V_String" />
+            <Field name="lat" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Merges\PETERSON_FINAL.csv" type="V_String" />
+            <Field name="lon" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Merges\PETERSON_FINAL.csv" type="V_String" />
+            <Field name="depth" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Merges\PETERSON_FINAL.csv" type="V_String" />
+            <Field name="photic_depth" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Merges\PETERSON_FINAL.csv" type="V_String" />
+            <Field name="wind_spd" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Merges\PETERSON_FINAL.csv" type="V_String" />
+            <Field name="wind_dir" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Merges\PETERSON_FINAL.csv" type="V_String" />
+            <Field name="water_temp" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Merges\PETERSON_FINAL.csv" type="V_String" />
+            <Field name="air_temp" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Merges\PETERSON_FINAL.csv" type="V_String" />
+            <Field name="bow_temp" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Merges\PETERSON_FINAL.csv" type="V_String" />
+            <Field name="barometer" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Merges\PETERSON_FINAL.csv" type="V_String" />
+            <Field name="chlor" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Merges\PETERSON_FINAL.csv" type="V_String" />
+            <Field name="turbidity" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Merges\PETERSON_FINAL.csv" type="V_String" />
+            <Field name="suspended_part" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Merges\PETERSON_FINAL.csv" type="V_String" />
+            <Field name="salinity" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Merges\PETERSON_FINAL.csv" type="V_String" />
+            <Field name="fluor_switch" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Merges\PETERSON_FINAL.csv" type="V_String" />
+            <Field name="comment" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Merges\PETERSON_FINAL.csv" type="V_String" />
+            <Field name="mark" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Merges\PETERSON_FINAL.csv" type="V_String" />
+            <Field name="dataset" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Merges\PETERSON_FINAL.csv" type="V_String" />
+            <Field name="file" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Merges\PETERSON_FINAL.csv" type="V_String" />
+            <Field name="datetime_out" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Merges\PETERSON_FINAL.csv" type="V_String" />
+            <Field name="new_lat" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Merges\PETERSON_FINAL.csv" type="V_String" />
+            <Field name="new_lon" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Merges\PETERSON_FINAL.csv" type="V_String" />
+            <Field name="dist_m" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Merges\PETERSON_FINAL.csv" type="V_String" />
+            <Field name="p_id" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Merges\PETERSON_FINAL.csv" type="V_String" />
+            <Field name="d_from_start" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Merges\PETERSON_FINAL.csv" type="V_String" />
+            <Field name="d_from_station" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Merges\PETERSON_FINAL.csv" type="V_String" />
+            <Field name="station_id" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Merges\PETERSON_FINAL.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="222" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="162" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Field_1" selected="False" />
+            <SelectField field="index" selected="True" type="Int32" size="4" />
+            <SelectField field="datetime" selected="True" type="DateTime" size="19" />
+            <SelectField field="lat" selected="True" type="Float" size="4" />
+            <SelectField field="lon" selected="True" type="Float" size="4" />
+            <SelectField field="depth" selected="True" type="Float" size="4" />
+            <SelectField field="photic_depth" selected="True" type="Float" size="4" />
+            <SelectField field="wind_spd" selected="True" type="Float" size="4" />
+            <SelectField field="wind_dir" selected="True" type="Float" size="4" />
+            <SelectField field="water_temp" selected="True" type="Float" size="4" />
+            <SelectField field="air_temp" selected="True" type="Float" size="4" />
+            <SelectField field="bow_temp" selected="True" type="Float" size="4" />
+            <SelectField field="barometer" selected="True" type="Float" size="4" />
+            <SelectField field="chlor" selected="True" type="Float" size="4" />
+            <SelectField field="turbidity" selected="True" type="Float" size="4" />
+            <SelectField field="suspended_part" selected="True" type="Float" size="4" />
+            <SelectField field="salinity" selected="True" type="Float" size="4" />
+            <SelectField field="new_lat" selected="True" type="Float" size="4" />
+            <SelectField field="new_lon" selected="True" type="Float" size="4" />
+            <SelectField field="dist_m" selected="True" type="Float" size="4" />
+            <SelectField field="p_id" selected="True" type="Float" size="4" />
+            <SelectField field="d_from_start" selected="True" type="Float" size="4" />
+            <SelectField field="d_from_station" selected="True" type="Float" size="4" />
+            <SelectField field="station_id" selected="True" type="Float" size="4" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>PETERSON_FINAL_CLEAN</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="0f930d4a-ba26-4fab-ae32-6fd44100f362" />
+      <Telemetry>
+        <PreviousWorkflowId value="3a4288f5-50de-4c2a-a34b-155fecc3a428" />
+        <OriginWorkflowId value="3a4288f5-50de-4c2a-a34b-155fecc3a428" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
