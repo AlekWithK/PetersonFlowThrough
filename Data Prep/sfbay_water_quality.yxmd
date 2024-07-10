@@ -1,0 +1,369 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="115" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Data Prep\tbl_sfbay_20240710.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>tbl_sfbay_20240710.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Date" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Data Prep\tbl_sfbay_20240710.csv" type="V_String" />
+            <Field name="Time" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Data Prep\tbl_sfbay_20240710.csv" type="V_String" />
+            <Field name="Station_Number" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Data Prep\tbl_sfbay_20240710.csv" type="V_String" />
+            <Field name="Depth" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Data Prep\tbl_sfbay_20240710.csv" type="V_String" />
+            <Field name="Discrete_Chlorophyll" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Data Prep\tbl_sfbay_20240710.csv" type="V_String" />
+            <Field name="Calculated_Chlorophyll" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Data Prep\tbl_sfbay_20240710.csv" type="V_String" />
+            <Field name="Discrete_Oxygen" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Data Prep\tbl_sfbay_20240710.csv" type="V_String" />
+            <Field name="Calculated_Oxygen" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Data Prep\tbl_sfbay_20240710.csv" type="V_String" />
+            <Field name="Discrete_SPM" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Data Prep\tbl_sfbay_20240710.csv" type="V_String" />
+            <Field name="Calculated_SPM" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Data Prep\tbl_sfbay_20240710.csv" type="V_String" />
+            <Field name="Extinction_Coefficient" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Data Prep\tbl_sfbay_20240710.csv" type="V_String" />
+            <Field name="Salinity" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Data Prep\tbl_sfbay_20240710.csv" type="V_String" />
+            <Field name="Temperature" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Data Prep\tbl_sfbay_20240710.csv" type="V_String" />
+            <Field name="Nitrite" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Data Prep\tbl_sfbay_20240710.csv" type="V_String" />
+            <Field name="Nitrate_+_Nitrite" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Data Prep\tbl_sfbay_20240710.csv" type="V_String" />
+            <Field name="Ammonium" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Data Prep\tbl_sfbay_20240710.csv" type="V_String" />
+            <Field name="Phosphate" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Data Prep\tbl_sfbay_20240710.csv" type="V_String" />
+            <Field name="Silicate" size="254" source="File: C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Data Prep\tbl_sfbay_20240710.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="162" y="115" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Date" selected="True" size="2147483647" />
+            <SelectField field="Time" selected="True" size="2147483647" />
+            <SelectField field="Station_Number" selected="True" type="Float" size="4" />
+            <SelectField field="Depth" selected="True" type="Float" size="4" />
+            <SelectField field="Discrete_Chlorophyll" selected="True" type="Float" size="4" />
+            <SelectField field="Calculated_Chlorophyll" selected="True" type="Float" size="4" />
+            <SelectField field="Discrete_Oxygen" selected="True" type="Float" size="4" />
+            <SelectField field="Calculated_Oxygen" selected="True" type="Float" size="4" />
+            <SelectField field="Discrete_SPM" selected="True" type="Float" size="4" />
+            <SelectField field="Calculated_SPM" selected="True" type="Float" size="4" />
+            <SelectField field="Extinction_Coefficient" selected="True" type="Float" size="4" />
+            <SelectField field="Salinity" selected="True" type="Float" size="4" />
+            <SelectField field="Temperature" selected="True" type="Float" size="4" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="270" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>&gt;</Operator>
+            <Field>Date</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-07-10 09:49:48</PeriodDate>
+              <PeriodType>days</PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>1994-11-01</Operand>
+              <StartDate>2024-07-10 09:49:48</StartDate>
+              <EndDate>2024-07-10 09:49:48</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Date] &gt; "1994-11-01"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="354" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="if IsNull([Time]) then [Time] = '0000' else [Time] endif" field="Time" size="2147483647" type="V_String" />
+            <FormulaField expression="PadLeft([Time], 4, '0')" field="Time" size="2147483647" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Time = if IsNull([Time]) then [Time] = '0000' else [Time] endif
+Time = PadLeft([...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="750" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ahernes\AppData\Local\Temp\1\Engine_29100_49e527dc751f654eb08bcfe8692e9cd0_\Engine_29100_d1d6fff71e8e2f4089d4b88496b08d1a~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="486" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Time</InputFieldName>
+          <Language>English</Language>
+          <Format>hhmm</Format>
+          <OutputFieldName>Time_Out</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Time From:
+Custom</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="582" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="ToDateTime([Date] + ' ' + [Time_Out])" field="datetime" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[datetime = ToDateTime([Date] + ' ' + [Time_Out])
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="666" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Date" selected="True" />
+            <SelectField field="Time_Out" selected="True" rename="Time" type="V_String" size="2147483647" />
+            <SelectField field="datetime" selected="True" type="DateTime" size="19" />
+            <SelectField field="Station_Number" selected="True" rename="station_id" />
+            <SelectField field="Depth" selected="True" />
+            <SelectField field="Discrete_Chlorophyll" selected="True" />
+            <SelectField field="Calculated_Chlorophyll" selected="True" />
+            <SelectField field="Discrete_Oxygen" selected="True" />
+            <SelectField field="Calculated_Oxygen" selected="True" />
+            <SelectField field="Discrete_SPM" selected="True" />
+            <SelectField field="Calculated_SPM" selected="True" />
+            <SelectField field="Extinction_Coefficient" selected="True" />
+            <SelectField field="Salinity" selected="True" />
+            <SelectField field="Temperature" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+            <SelectField field="Time" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="809" y="53" width="152" height="165" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 5</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="834" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">C:\Users\ahernes\Documents\Active Projects\Peterson Flow Through\Data Prep\tbl_sfbay_20240710_CLEANED.csv</File>
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>tbl_sfbay_20240710_CLEANED.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="True" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>sfbay_water_quality</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="0020e7d0-8bd9-4c14-955b-58f0c31f4ed9" />
+      <Telemetry>
+        <PreviousWorkflowId value="2002e3f3-c972-47ec-a432-06d0cb0f323a" />
+        <OriginWorkflowId value="2002e3f3-c972-47ec-a432-06d0cb0f323a" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
