@@ -87,7 +87,7 @@
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="270" y="114" />
+        <Position x="258" y="114" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -141,7 +141,7 @@ Time = PadLeft([...</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ahernes\AppData\Local\Temp\1\Engine_29100_49e527dc751f654eb08bcfe8692e9cd0_\Engine_29100_d1d6fff71e8e2f4089d4b88496b08d1a~.yxdb</TempFile>
+          <TempFile>C:\Users\ahernes\AppData\Local\Temp\1\Engine_30544_73c509f98a77aa4daa6bb1eb6675e0c7_\Engine_30544_4912ce5e9eb842479a1825e0f9eba11f~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -165,7 +165,7 @@ Time = PadLeft([...</DefaultAnnotationText>
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
-        <Position x="486" y="102" />
+        <Position x="474" y="102" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -216,7 +216,7 @@ Custom</DefaultAnnotationText>
             <SelectField field="Time_Out" selected="True" rename="Time" type="V_String" size="2147483647" />
             <SelectField field="datetime" selected="True" type="DateTime" size="19" />
             <SelectField field="Station_Number" selected="True" rename="station_id" />
-            <SelectField field="Depth" selected="True" />
+            <SelectField field="Depth" selected="True" rename="depth" />
             <SelectField field="Discrete_Chlorophyll" selected="True" />
             <SelectField field="Calculated_Chlorophyll" selected="True" />
             <SelectField field="Discrete_Oxygen" selected="True" />
@@ -224,8 +224,8 @@ Custom</DefaultAnnotationText>
             <SelectField field="Discrete_SPM" selected="True" />
             <SelectField field="Calculated_SPM" selected="True" />
             <SelectField field="Extinction_Coefficient" selected="True" />
-            <SelectField field="Salinity" selected="True" />
-            <SelectField field="Temperature" selected="True" />
+            <SelectField field="Salinity" selected="True" rename="salinity" />
+            <SelectField field="Temperature" selected="True" rename="water_temp" />
             <SelectField field="*Unknown" selected="False" />
             <SelectField field="Time" selected="False" />
           </SelectFields>
