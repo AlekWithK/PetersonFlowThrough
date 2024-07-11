@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="115" />
+        <Position x="54" y="127" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -54,7 +54,7 @@
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="162" y="115" />
+        <Position x="162" y="127" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -87,7 +87,7 @@
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="258" y="114" />
+        <Position x="258" y="126" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -117,7 +117,7 @@
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="354" y="102" />
+        <Position x="354" y="114" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -137,11 +137,11 @@ Time = PadLeft([...</DefaultAnnotationText>
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="750" y="42" />
+        <Position x="750" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ahernes\AppData\Local\Temp\1\Engine_30544_73c509f98a77aa4daa6bb1eb6675e0c7_\Engine_30544_4912ce5e9eb842479a1825e0f9eba11f~.yxdb</TempFile>
+          <TempFile>C:\Users\ahernes\AppData\Local\Temp\1\Engine_14748_311f6e4e8c1881408951dad02e91f78b_\Engine_14748_2ca7e751c9514a47bc352241a5035c7c~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -165,7 +165,7 @@ Time = PadLeft([...</DefaultAnnotationText>
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
-        <Position x="474" y="102" />
+        <Position x="474" y="114" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -186,7 +186,7 @@ Custom</DefaultAnnotationText>
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="582" y="102" />
+        <Position x="582" y="114" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -205,25 +205,25 @@ Custom</DefaultAnnotationText>
     </Node>
     <Node ToolID="12">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="666" y="102" />
+        <Position x="666" y="114" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <OrderChanged value="True" />
           <CommaDecimal value="False" />
           <SelectFields>
-            <SelectField field="Date" selected="True" />
-            <SelectField field="Time_Out" selected="True" rename="Time" type="V_String" size="2147483647" />
+            <SelectField field="Date" selected="True" rename="date" />
+            <SelectField field="Time_Out" selected="True" rename="time" type="V_String" size="2147483647" />
             <SelectField field="datetime" selected="True" type="DateTime" size="19" />
             <SelectField field="Station_Number" selected="True" rename="station_id" />
             <SelectField field="Depth" selected="True" rename="depth" />
-            <SelectField field="Discrete_Chlorophyll" selected="True" />
-            <SelectField field="Calculated_Chlorophyll" selected="True" />
-            <SelectField field="Discrete_Oxygen" selected="True" />
-            <SelectField field="Calculated_Oxygen" selected="True" />
-            <SelectField field="Discrete_SPM" selected="True" />
-            <SelectField field="Calculated_SPM" selected="True" />
-            <SelectField field="Extinction_Coefficient" selected="True" />
+            <SelectField field="Discrete_Chlorophyll" selected="True" rename="disc_chlor" />
+            <SelectField field="Calculated_Chlorophyll" selected="True" rename="calc_chlor" />
+            <SelectField field="Discrete_Oxygen" selected="False" />
+            <SelectField field="Calculated_Oxygen" selected="False" />
+            <SelectField field="Discrete_SPM" selected="True" rename="disc_spm" />
+            <SelectField field="Calculated_SPM" selected="True" rename="calc_spm" />
+            <SelectField field="Extinction_Coefficient" selected="False" />
             <SelectField field="Salinity" selected="True" rename="salinity" />
             <SelectField field="Temperature" selected="True" rename="water_temp" />
             <SelectField field="*Unknown" selected="False" />
@@ -240,7 +240,7 @@ Custom</DefaultAnnotationText>
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="809" y="53" width="152" height="165" />
+        <Position x="809" y="65" width="152" height="165" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -258,7 +258,7 @@ Custom</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="4">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="834" y="102" />
+            <Position x="834" y="114" />
           </GuiSettings>
           <Properties>
             <Configuration>
